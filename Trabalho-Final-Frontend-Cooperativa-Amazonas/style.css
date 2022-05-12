@@ -239,8 +239,6 @@ footer {
     border: 1px solid white;
 }
 
-
-
 .dark button:hover{
     background: var(--dark-theme-secondary);
     filter: brightness(1.5);
