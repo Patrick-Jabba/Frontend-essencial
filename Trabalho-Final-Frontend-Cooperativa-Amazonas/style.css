@@ -142,7 +142,7 @@ p {
     
 }
 
-.turmaArrepio:hover img.image-hover {
+.dark .turmaArrepio:hover img.image-hover {
     opacity: 1;
 }
 
