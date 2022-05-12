@@ -41,11 +41,11 @@ function mudaTema() {
 }
 
 function mudaTextoBotaoTema() {
-    var x = document.getElementById("button-tema");
-    if (x.innerHTML === "Dark Mode") {
-        x.innerHTML = "Light Mode";
+    var textoBotaoTema = document.getElementById("button-tema");
+    if (textoBotaoTema.innerHTML === "Dark Mode") {
+        textoBotaoTema.innerHTML = "Light Mode";
     } else {
-        x.innerHTML = "Dark Mode";
+        textoBotaoTema.innerHTML = "Dark Mode";
         // alert('cuidado com os bugs atraídos pela luz')
     }
 }

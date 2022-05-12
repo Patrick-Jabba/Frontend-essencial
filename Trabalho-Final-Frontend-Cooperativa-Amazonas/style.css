@@ -122,9 +122,28 @@ p {
 }
 
 .devProfiles {
+    position: relative;
+    max-width: 100%;
     width: 15rem;
     height: 15rem;
+    margin-bottom: 1rem;
+}
 
+.turmaArrepio img.image-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 15rem;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+    width: 18rem;
+    
+}
+
+.turmaArrepio:hover img.image-hover {
+    opacity: 1;
 }
 
 #cardsGrupo4 div:nth-child(2) .devProfiles {
@@ -201,7 +220,7 @@ footer {
 .tema button {
     
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 1rem 2rem;
     background: var(--primary-color);
     color: white;
