@@ -288,3 +288,54 @@ footer {
     color: var(--dark-theme-secondary);
     filter: brightness(2);
 }
+
+/*============== PAGINA CLIENTES =========================*/
+
+
+.tabela-clientes {
+    padding: 5rem;
+    justify-content: center;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.table {
+    color: var(--texto);
+    font-size: 2rem;
+}
+
+.linhaTabelaCliente:hover{
+    background-color: var(--tabela-color);
+}
+
+#cardsAqui {
+    margin-top: 5rem;
+}
+
+#datatable-search-input {
+    font-size: 2rem;
+    margin-top: 1rem;
+    outline-offset: none !important;
+    outline: none !important;
+    width: 100%;
+    border: 1px thin hsla(0, 43%, 99%, 0);
+    padding: 0.5rem;
+}
+#datatable-search-input:focus {
+    font-size: 2rem;
+    margin-top: 1rem;
+    outline-offset: none !important;
+    outline: none !important;
+    outline-style: none !important;
+    outline-color: #1c1c1c;
+}
